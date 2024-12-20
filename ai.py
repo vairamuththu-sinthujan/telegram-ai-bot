@@ -5,7 +5,6 @@ import os
 # Create the model
 load_dotenv()
 
-api_key = os.getenv("GEMINI_API_KEY")
 
 class Ai:
   def __init__(self):
